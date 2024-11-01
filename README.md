@@ -8,9 +8,14 @@ The dataset is from the [Kaggle Histopathologic Cancer Detection competition](ht
 
 ![alt text](example_data.png)
 
-## Project Structure
+## Results
+The best model trained via public score in Kaggle was v3cnn
 
-- `cancer_cnn.ipynb`: Jupyter Notebook with training experiments
-- `/data`: placeholder for training / test data from kaggle
--  Poetry package management for python
+| Model | Public Score |
+|-------|--------------|
+| V3CNN | 0.8619       |
 
+
+### V3CNN Architecture 
+
+![v3cnn_model](https://github.com/user-attachments/assets/c6e92882-346f-4be2-a9f5-d02501dae7ef)
